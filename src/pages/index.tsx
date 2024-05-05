@@ -176,7 +176,7 @@ export default function Home() {
       </p>
       <p data-tooltip-id="my-tooltip" data-tooltip-html={`
       This is calculated by transforming the summed weighted values <br />
-      using the logistic function 1/(1+e<sup>-Sum</sup>) <br /><br />
+      using the logistic function 1/(1+e<sup>-logit</sup>) <br /><br />
       It is used to convert a risk score (logit) to a probability. </br>
       <Image src='/logit vs risk 100 dpi.png' alt='logit vs risk graph' width={500} height={500}/>
         `}>
